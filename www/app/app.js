@@ -17,15 +17,11 @@ export class MyApp {
   initializeApp() {
       this.platform.ready().then(() => {
         console.log('Platform ready');
-        
-        Parse.initialize("YOUR APP ID", "JAVASCRIPT KEY");
+
+        Parse.initialize("Dbifem11JPi1NQ91zZr3dan8zRQEoepS5NHTra8S", "9SoBXtlq5zNU2VDQo2G7MPffdRWQHjOucUu4jGwS");
         if (typeof StatusBar !== 'undefined') {
            StatusBar.styleDefault();
        }
       });
-/*
-   platform.ready().then(() => {
-      Parse.initialize("Dbifem11JPi1NQ91zZr3dan8zRQEoepS5NHTra8S", "9SoBXtlq5zNU2VDQo2G7MPffdRWQHjOucUu4jGwS");
-    });
-*/
+
 }
